@@ -1,3 +1,4 @@
+import React from 'react';
 import CustomImage from "./CustomImage"
 
 export default function HeroSection(){
@@ -11,7 +12,8 @@ export default function HeroSection(){
         "/img/gallery/imgbin-lime-SeU2xLFGVWkFY6QKHR43CFpsn.jpg",
         "/img/gallery/tacos.jpg",
         "/img/gallery/winter-scenery-mountain-with-rain-snow-free-vector.jpg"
-    ]
+    ];
+    
     return (
         <div className="section hero">
             <div className="col typography">
