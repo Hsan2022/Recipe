@@ -16,7 +16,7 @@ export default function ExpertsSection(){
         },
         {
             name: "Dennis Casper",
-            img: "/img/experts/dad.jpeg",
+            img: "/img/experts/grandpa.jpeg",
             recipesCount: 2,
             cuisine: "American",
         },
@@ -27,7 +27,7 @@ export default function ExpertsSection(){
             cuisine: "Cuban",
         },
         {
-            name: "Mira Rossi",
+            name: "Selene Rossi",
             img: "/img/experts/selene.jpeg",
             recipesCount: 2,
             cuisine: "Italian",
@@ -43,12 +43,14 @@ export default function ExpertsSection(){
         <div className="section experts">
             <h1 className="title">Our Top Food Experts</h1>
             <div className="top-experts-container">
+                {/* <ExpertCard />
                 <ExpertCard />
                 <ExpertCard />
                 <ExpertCard />
                 <ExpertCard />
-                <ExpertCard />
-                <ExpertCard />
+                <ExpertCard /> */}
+                {/* get expert, render expert card, pass in expert object as prop */}
+                {experts.map(expert=> <ExpertCard key={expert.name} expert={expert} /> )}
             </div>
         </div>
     )
