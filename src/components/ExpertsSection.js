@@ -5,7 +5,7 @@ export default function ExpertsSection(){
         {
             name: "Oscar Sánchez",
             img: "/img/experts/dad.jpeg",
-            recipesCount: 2,
+            recipesCount: 3,
             cuisine: "Mexican",
         },
         {
@@ -17,7 +17,7 @@ export default function ExpertsSection(){
         {
             name: "Dennis Casper",
             img: "/img/experts/grandpa.jpeg",
-            recipesCount: 2,
+            recipesCount: 1,
             cuisine: "American",
         },
         {
@@ -28,17 +28,17 @@ export default function ExpertsSection(){
         },
         {
             name: "Selene Rossi",
-            img: "/img/experts/selene.jpeg",
+            img: "/img/experts/sonia.jpeg",
             recipesCount: 2,
             cuisine: "Italian",
         },
         {
             name: "Renata Calix",
-            img: "/img/experts/sonia.jpeg",
+            img: "/img/experts/selene.jpeg",
             recipesCount: 2,
             cuisine: "Honduran",
         }
-    ]
+    ] 
     return (
         <div className="section experts">
             <h1 className="title">Our Top Food Experts</h1>

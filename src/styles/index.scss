@@ -99,10 +99,14 @@ img{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 1.5em;
+    margin-top: 3em;
 }
 .expert-card{
     display: flex;
     height: 120px;
+    background-color: var(--background-color);
+    border-radius: 5px;
+    overflow: hidden;
     img{
         height: 100%;
         width: 120px;
@@ -160,5 +164,8 @@ img{
         .sidebar-btn{
             display: block;
         }
+    }
+    .expert-card{
+        box-shadow: 0 5px 10px var(--shadow-color);
     }
 }
